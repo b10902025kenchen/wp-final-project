@@ -1,0 +1,38 @@
+.joinGameContainer {
+    background-image: url(background2.PNG);
+    height: 620px;
+    width: 100%;
+}
+
+.joinGame {
+    width: 200px;
+    position: relative;
+    left: 510px;
+    top: 50px;
+    text-align: left;
+}
+
+input[type="text"],
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: black;
+    padding: 20px;
+}
+
+.text2 {
+    position: absolute;
+    top: 50px;
+    left: 520px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: black;
+    padding: 20px;
+}

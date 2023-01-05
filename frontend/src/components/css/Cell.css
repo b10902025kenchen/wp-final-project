@@ -1,0 +1,54 @@
+* {
+  font-family: 'Futura';
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  justify-content: "center";
+  align-items: "center";
+  display: "flex";
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border-color: "black";
+}
+
+.stone {
+  position: relative;
+  left: 10%;
+  top: 10%;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25),
+    -2px -2px 4px 0 rgba(255, 255, 255, 0.25);
+  display: flex;
+  /* align-content: center; */
+}
+
+.black {
+  background: linear-gradient(145deg, grey, #000000);
+}
+
+.white {
+  background: linear-gradient(145deg, #f6cfa6, #ffffff);
+}
+
+.empty {
+  visibility: hidden;
+}
+
+.cell:hover {
+  cursor: pointer;
+}
+
+.dot {
+  position: relative;
+  left: 37%;
+  top: 40%;
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+}

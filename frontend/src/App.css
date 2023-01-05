@@ -1,0 +1,15 @@
+* {
+      font-family: 'Futura';
+}
+
+html,
+body {
+      height: 100%;
+}
+
+.App {
+      display: "flex";
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+}

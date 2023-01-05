@@ -1,0 +1,81 @@
+.profileContainer {
+    background-image: url("background2.PNG");
+    height: 610px;
+}
+
+.profileWrapper{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header{
+    background: lightskyblue;
+    padding: 25px 25px;
+    text-align: left;
+}
+
+.name {
+    color: blue;
+    font-size: 24px;
+}
+
+.container {
+    width: 100%; 
+    background-color: #ddd; 
+    border-top: 10px;
+    border-color: none;
+  }
+
+.skills {
+    text-align: right; 
+    padding-top: 6px; 
+    padding-bottom: 6px; 
+    color: blue; 
+}
+
+.coins {
+    width: 50%;
+    background-color: gold;
+}
+
+.level {
+    font-size: 24px;
+    color: blue;
+}
+
+.games {
+    font-size: 24px;
+    color: blue;
+}
+
+.card-footer {
+    background: #f4f4f4;
+    padding: 40px 5px;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #e66767;
+}
+
+.item span {
+    display: block;
+    color: #2c3a47;
+    font-size: 30px;
+}

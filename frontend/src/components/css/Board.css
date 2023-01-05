@@ -1,0 +1,72 @@
+* {
+    font-family: 'Futura';
+}
+
+.boardPage {
+    margin: 0;
+}
+
+.boardWrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(background2.PNG);
+
+}
+
+.countdowncontainer {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.boardContainer {
+    border: 10px solid chocolate;
+    border-radius: 10px;
+    background-color: #f1b06c;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.resignWrapper {
+    position: absolute;
+    top: 85%;
+    right: 43%;
+}
+
+.replayWrapper {
+    position: absolute;
+    top: 85%;
+    right: 30%;
+}
+
+.replayBtn {
+    display: inline-block;
+    background-color:cornflowerblue;
+    padding: 20px;
+    width: 150px;
+    height: 60px;
+    color: #ffffff;
+    text-align: center;
+    border: 4px double #cccccc;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+    -webkit-transition: all 0.5s; 
+    -moz-transition: all 0.5s; 
+    -o-transition: all 0.5s; 
+    transition: all 0.5s; 
+}
+
+.replayBtn:hover {
+    cursor: pointer;
+    background-color: #0f0f4b;
+    color: lightblue;
+    border: 3px solid transparent;
+}
